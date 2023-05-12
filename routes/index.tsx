@@ -1,4 +1,4 @@
-import { Head } from "$fresh/runtime.ts";
+import { Head } from "https://deno.land/x/fresh@1.1.5/runtime.ts";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {

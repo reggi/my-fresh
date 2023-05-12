@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState } from "https://esm.sh/preact@10.13.1/hooks";
 import { Button } from "../components/Button.tsx";
 
 interface CounterProps {

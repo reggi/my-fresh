@@ -1,5 +1,5 @@
-import { JSX } from "preact";
-import { IS_BROWSER } from "$fresh/runtime.ts";
+import { JSX } from "https://esm.sh/preact@10.13.1";
+import { IS_BROWSER } from "https://deno.land/x/fresh@1.1.5/runtime.ts";
 
 export function Button(props: JSX.HTMLAttributes<HTMLButtonElement>) {
   return (
